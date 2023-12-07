@@ -23,14 +23,18 @@ rika_hensa = rika.map{|x| (10*(x-rika_avg)/rika_hyohen+50).round(2) }
 eigo_hensa = eigo.map{|x| (10*(x-eigo_avg)/eigo_hyohen+50).round(2) }
 
 printf('偏差値： 理科')
+puts
 p rika_hensa
 printf('偏差値： 英語')
+puts
 p eigo_hensa
 
 
-printf('点数の高い順： 理科')
+printf('点数の高い順：理科')
+puts
 p rika.sort.reverse
-printf('点数の高い順： 英語')
+printf('点数の高い順：英語')
+puts
 p eigo.sort.reverse
 
 
