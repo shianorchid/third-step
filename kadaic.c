@@ -40,6 +40,7 @@ int main() {
     printf("理科の平均点：%lf点, 理科の標準偏差：%lf, 理科の合計点：%d点\n",science_mean,science_std_dev,science_sum);
     printf("英語の平均点：%lf点, 英語の標準偏差：%lf, 英語の合計点：%d点\n",english_mean,english_std_dev,english_sum);
 
+    printf(" :) \n");
     // 偏差値と元の点数を表示
     printf("生徒\t理科点数\t理科偏差値\t英語点数\t英語偏差値\n");
     for (int i = 0; i < NUM_STUDENTS; ++i) {
